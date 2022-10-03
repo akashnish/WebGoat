@@ -1,0 +1,5 @@
+{
+  "ok": false,
+  "error": "Child process failed with exit code: 1.\nRun in debug mode (-d) to see STDERR and STDOUT.\nSTDERR:\nError: JAVA_HOME not found in your environment. \r\nPlease set the JAVA_HOME variable in your environment to match the \r\nlocation of your Java installation. \r\n\n\nPlease make sure that Apache Maven Dependency Plugin version 2.2 or above is installed, and that `mvnw.cmd dependency:tree -DoutputType=dot --batch-mode --non-recursive --file=\"pom.xml\"` executes successfully on this project.\n\nCurrently, you cannot run `mvnw` outside your current directory, you will have to go inside the directory of your project (see: https://github.com/takari/maven-wrapper/issues/133)\n\nIf the problem persists, collect the output of `DEBUG=* mvnw.cmd dependency:tree -DoutputType=dot --batch-mode --non-recursive --file=\"pom.xml\"` and contact support@snyk.io\n",
+  "path": "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\WebGoat"
+}
