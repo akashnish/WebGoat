@@ -18,8 +18,3 @@ steps:
     semgrep ci
   env:
     SEMGREP_PR_ID: $(System.PullRequest.PullRequestNumber)
-task: PublishPipelineArtifact@1
-    inputs:
-       targetPath: 'semgrep.sarif'
-       artifactType: 'pipeline'
-       artifactName: 'scan-results'
